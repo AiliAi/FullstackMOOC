@@ -4,7 +4,7 @@
 
 App.js
 
-```
+```js
 import React from 'react';
 
 const Header = (props) => {

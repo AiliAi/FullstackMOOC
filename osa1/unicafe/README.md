@@ -4,7 +4,7 @@
 
 App.js
 
-```
+```js
 import React, { useState } from 'react';
 
 const Header = ({ name }) => {
