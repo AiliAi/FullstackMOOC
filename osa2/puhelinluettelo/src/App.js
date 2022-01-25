@@ -3,26 +3,7 @@ import personService from './services/persons'
 import Persons from './components/Persons';
 import PersonForm from './components/PersonForm';
 import Filter from './components/Filter';
-
-const Notification = ({ message, errorMessage }) => {
-  if (message === null) {
-    return null
-  }
-
-  return (
-    <>
-      {!errorMessage ?
-        <div className="message">
-          {message}
-        </div>
-        :
-        <div className="errorMessage">
-          {message}
-        </div>
-      }
-    </>
-  )
-}
+import Notification from './components/Notification';
 
 const App = () => {
   const [persons, setPersons] = useState([]);
