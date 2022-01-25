@@ -1,0 +1,23 @@
+.message {
+    color: rgb(0, 163, 109);
+    background: lightgrey;
+    font-size: 20px;
+    border: 3px solid rgb(0, 163, 109);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+.errorMessage {
+    color: rgb(163, 24, 0);
+    background: lightgrey;
+    font-size: 20px;
+    border: 3px solid rgb(163, 24, 0);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    color: rgb(31, 3, 97);
+  }
